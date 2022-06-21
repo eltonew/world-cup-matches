@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">World Cup Matches</string>
+    <string name="txt_simulate">botão de simulaçãode partidas</string>
+    <string name="cd_home_team">Imagem do time mandante</string>
+    <string name="cd_away_team">Imagem do time visitante</string>
+    <string name="txt_versus">X</string>
+</resources>
