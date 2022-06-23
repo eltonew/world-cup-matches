@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="my.projetc.worldcupmatches">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -13,10 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WorldCupMatches"
         tools:targetApi="31">
+
         <activity
-            android:name=".ui.DetailActivity"
-            android:exported="true"
-            android:theme="@style/Theme.WorldCupMatches.NoActionBar">
+            android:name=".ui.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,10 +26,12 @@
         </activity>
 
         <activity
-            android:name=".ui.MainActivity"
-            android:exported="true">
-
+            android:name=".ui.DetailActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:theme="@style/Theme.WorldCupMatches.NoActionBar">
         </activity>
+
     </application>
 
 </manifest>
