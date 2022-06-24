@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupMatchesList() {
         binding.recyclerViewMatches.setHasFixedSize(true)
         binding.recyclerViewMatches.layoutManager = LinearLayoutManager(this)
+        binding.recyclerViewMatches.adapter = matchesAdapter
         findMatchesFromApi()
     }
 
