@@ -64,6 +64,8 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                 })
+//            throw RuntimeException("Teste Crashlytics")
+
         }
     }
 

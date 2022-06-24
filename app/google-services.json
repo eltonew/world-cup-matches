@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820102954119",
+    "project_id": "simulator-dio-sportheca-6bdc6",
+    "storage_bucket": "simulator-dio-sportheca-6bdc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820102954119:android:380d6a0bcd5d57a7e90c22",
+        "android_client_info": {
+          "package_name": "my.projetc.worldcupmatches"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820102954119-a6qicse1sg34os8lb22aaocbpacbvor5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw6U-JaHUMaX1JmatSk9xPyRJZr2LMRME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820102954119-a6qicse1sg34os8lb22aaocbpacbvor5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
